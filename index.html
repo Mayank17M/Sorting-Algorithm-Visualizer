@@ -11,35 +11,42 @@
   <body>
     <header>
       <nav>
-        <div class="array-input">
+        <div class="array-inputs">
           <p>Array Size:</p>
-          <input type="range" id="size" min="10" max="150" step="1" value="50" />
+          <input type="range" id="size" min="10" max="150" step="1" value="80" />
           <p>Algorithm Speed:</p>
           <input type="range" id="speed" min="1" max="5" step="1" value="3" />
           <button id="new_arr">New Array!</button>
         </div>
 
-        <div class="header-right">
+        <div class="header_right">
           <p class="nav-head">Sorting Algorithm Visualizer</p>
 
+          <div class="algos">
+            <button >Bubble</button>
+            <button >Selection</button>
+            <button >Insertion</button>
+            <button >Quick</button>
+            <button >Merge</button>
+            <button >Heap</button>
+          </div>
           
         </div>
       </nav>
     </header>
 
     <section>
-      <div class="sorts">
-        <button>Bubble</button><br>
-        <button>Selection</button><br>
-        <button>Insertion</button>
+
+      <div id="Info_Cont1">
+            
       </div>
 
-      <div id="array_container"></div>
+      <div id="array_container">
+          
+      </div>
 
-      <div class="sorts">
-        <button>Quick</button><br>
-        <button>Merge</button><br>
-        <button>Heap</button>
+      <div id="Info_Cont2">
+          
       </div>
     </section>
 
